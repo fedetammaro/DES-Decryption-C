@@ -1,6 +1,6 @@
 
-# DES-Decryption
-Mid-term assignment developed together with [Federico Palai](https://github.com/palai103), using the OpenMP C framework to decrypt passwords using the DES algorithm given a password dictionary.
+# DES Decryption in C++ using OpenMP
+Mid-term assignment for the Parallel Computing course at Università degli Studi di Firenze. Developed together with [Federico Palai](https://github.com/palai103), uses the OpenMP C++ framework to decrypt passwords using the DES algorithm given a password dictionary.
 The only argument required by this program is an integer,  number of runs for each password, to get a mean time of execution and avoid spikes of load on the CPU.
 
 The requirements to run this program in CLion or by building with CMake are:
