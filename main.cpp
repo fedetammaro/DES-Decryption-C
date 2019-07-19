@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
 
     vector<long> sequentialTimes, firstMethodParallelTimes, secondMethodParallelTimes;
     vector<float> firstMethodSpeedups, secondMethodSpeedups;
-    vector<int> numberOfThreads = {2, 3, 4, 5, 6, 7, 8, 9, 10};
+    vector<int> numberOfThreads = {2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 100, 200, 500, 1000, 5000, 10000};
 
     sequentialTimes = dictionaryDecrypter.sequentialBruteforce(runsPerPassword);
 
