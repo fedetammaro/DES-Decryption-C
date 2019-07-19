@@ -6,3 +6,5 @@ The only argument required by this program is an integer,  number of runs for ea
 The requirements to run this program in CLion or by building with CMake are:
  - **crypt library** to use the `crypt`and `r_crypt`functions
  - **[OpenMP C framework](https://www.openmp.org/)** to handle the parallel sections inside the code
+ 
+ Full project report can be found [here](https://github.com/Sfullez/DES-Decryption-C/blob/master/Project%20report.pdf)
